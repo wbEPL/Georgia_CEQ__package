@@ -1081,7 +1081,13 @@ mod_maps_server <- function(id, sim_res = sim_res(),
     # Define reactive expressions for data loading and processing
     shape_file_data <- reactive({
       req(sim_res())  # Ensure sim_res is available
-      shape_file <- sf::st_read("./inst/extdata/geo_admbnda_adm1_geostat_20191018.json") %>%
+
+      shape_file <-sf::st_read(
+        system.file("extdata", "geo_admbnda_adm1_geostat_20191018.json", package = "GeoappPackage")
+      ) %>%
+
+
+     # shape_file <- sf::st_read("./inst/extdata/geo_admbnda_adm1_geostat_20191018.json") %>%
         dplyr::select(ADM1_EN, ADM1_KA, geometry) %>%
         mutate(regno = case_when(
           ADM1_EN == "Kakheti" ~ 0,
