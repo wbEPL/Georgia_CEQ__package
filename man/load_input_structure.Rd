@@ -12,6 +12,3 @@ A list containing the input structure.
 \description{
 This function loads the input structure from the `geo_inputs.xlsx` file included in the package.
 }
-\examples{
-inputs_str <- load_input_structure()
-}

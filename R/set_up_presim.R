@@ -6,14 +6,6 @@
 #' @param path_to_baseline Character string. The file path to the baseline `.rds` file.
 #'
 #' @return A reactive expression that, when evaluated, returns a list containing the presimulation data with the baseline data included.
-#'
-#' @examples
-#' # Example usage within a Shiny app server function:
-#' \dontrun{
-#' presim_dta <- set_up_presim("data/presim.rds", "data/baseline.rds")
-#' # Access the data by calling presim_dta()
-#' data <- presim_dta()
-#' }
 set_up_presim <- function(path_to_presim, path_to_baseline) {
 
   # Check if the presim file exists
