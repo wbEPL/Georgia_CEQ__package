@@ -1,2 +1,2 @@
-# Georgia_CEQ__package
+# Georgia_CEQ_package
 package version of Georgia CEQ  for easy use
