@@ -44,5 +44,6 @@ Imports:
 Depends: 
     devCEQ,
     dplyr
-Remotes: 
-    Laurent-Smeets-GSS-Account/DiagrammeR-simple
+Remotes:  
+    Laurent-Smeets-GSS-Account/DiagrammeR-simple,
+    wbEPL/devCEQ@georgia-branch
