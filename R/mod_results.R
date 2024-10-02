@@ -5,8 +5,6 @@
 #' @param id,input,output,session Internal parameters for {shiny}.
 #'
 #' @noRd
-#'
-#' @export
 #' @importFrom shiny NS tagList
 mod_results_ui <- function(id) {
   ns <- NS(id)
@@ -132,7 +130,6 @@ mod_results_ui <- function(id) {
 #' results Server Functions
 #'
 #' @noRd
-#' @export
 mod_results_server <- function(id,
                                    sim_res = reactive(list()),
                                    postsim_res = reactive(list()),
@@ -316,7 +313,6 @@ mod_results_server <- function(id,
 
 #' Tests a simple results page module providing it with the sim_res
 #'
-#' @export
 test_results_mod <-
   function(sim_res = NULL,
            ui_side,
