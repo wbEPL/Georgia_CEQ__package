@@ -1,0 +1,114 @@
+﻿para__inputId,short
+simu_tsa_value,simulate TSA value
+tsa_under_16,Avergage monthly TSA for a children below 15 years
+tsa_over_16,Avergage monthly TSA for a children above 15 years
+simu_tsa_benef,add TSA benefits to quintiles
+simu_tsa_mult,TSA multiplier
+benef_q_1,assign TSA benefit to first quintile
+benef_q_2,assign TSA benefit to second quintile
+benef_q_3,assign TSA benefit to third quintile
+benef_q_4,assign TSA benefit to fourth quintile
+benef_q_5,assign TSA benefit to fifth  quintile
+pitw_rate_0,
+pitw_rate_1,
+pit1,
+pitw_rate_2,
+pit2,
+pitw_rate_3,
+pit3,
+pitw_rate_4,
+pit4,
+pitw_rate_5,
+pit5,
+pitw_rate_6,
+pit6,
+pitw_rate_7,
+pit7,
+pitw_rate_8,
+pit8,
+pits_rate,"Self-employed income tax, %"
+pitk_rate,"Capital income tax, %"
+sscw_rate,pension contributions rate employee
+ssce_rate,pension contributions rate employeer (on behlaf of employee)
+sscs_rate,pension contributions rate self-employed
+sscg1_rate,"Gov. pension contrib. rate, % (bracket 1)"
+sscg2_rate,"Gov. pension contrib. rate, % (bracket 2)"
+sscg1_limit,"Gov. pension contrib. upper income threshold, GEL (bracket 1)"
+sscg2_limit,"Gov. pension contrib. upper income threshold, GEL (bracket 2)"
+sscg_max,maximum taxable income for pensions contributions government
+ptax_thr1,"Property value upper threshold 1, GEL "
+ptax_thr2,"Property value upper threshold 2, GEL "
+ptax_r1l,Rate threshold 1 lower bound
+ptax_r1u,Rate threshold 1 upper bound 
+ptax_r2l,Rate threshold 2 lower bound
+ptax_r2u,Rate threshold 2 upper bound 
+larab_1,
+larab_2,
+larab_3,
+larab_4,
+larab_5,
+larab_6,
+larab_7,
+larab_8,
+larab_9,
+larab_10,
+larab_11,
+larab_12,
+larab_13,
+larab_14,
+lpast_1,
+lpast_2,
+lpast_3,
+lpast_4,
+lpast_5,
+lpast_6,
+lpast_7,
+lpast_8,
+lpast_9,
+lpast_10,
+lpast_11,
+lpast_12,
+lpast_13,
+lpast_14,
+vat_rate,Vat (%)
+exc_rate_mobile,Excise rate mobile phone (%)
+exc_rate_beer,Excise rate beer (GEL per liter)
+exc_rate_vodka,Excise rate vodka (GEL per liter)
+exc_rate_wine,Excise rate wine (GEL per liter) 
+exc_rate_brandy,Excise rate brandy (GEL per liter)
+exc_rate_tobfil,Excise rate tobacco filtered (GEL per pack of 20 filtered cigarettes) 
+exc_rate_tobunf,Excise rate tobacco unfiltered (GEL per pack of 20 unfiltered cigarettes) 
+exc_rate_fuel_liquid,Excise rate gasoline (GEL per liter) 
+exc_rate_fuel_gas,Excise rate gas (GEL per cubic meter) 
+sub_rate_elec,Average subsidy rate electricity  (GEL per Kw/H)
+sub_price_elec,Average electricity price  (GEL per Kw/H)
+sub_limit_elec,Maximum KwH with subsidy 
+sub_rate_gas,Average subsidy rate gas  (GEL per 1 cubic meter)
+sub_price_gas,Average gas price (GEL per  1 cubic meter)
+sub_upbound_wat,Maximum amount of subsidy that it is subsidized
+sub_rate_trans,Average subsidy rate transport  (GEL per trip)
+sub_price_trans,Average transport price  (GEL per trip)
+sub_simul_gas,Activate simulation of gas subsidy (now is self-reported)
+sub_free_gas  ,Lower bound of free gas consumption 
+total_health_benefits,Total health expenditure (GEL)
+health_ben_2022_1,health benefits  for non-pensioner adults with income below national poverty line
+health_ben_2022_2,health benefits for pensioners
+health_ben_2022_3,health benefits for children under 5
+health_ben_2022_4,health benefits for students and disabled
+health_ben_2022_5,health benefits for veterans
+health_ben_2022_6,health benefits for adults with a low income (under 500 GEL monthly) 
+health_ben_2022_7,health benefits for adults with a low income (under  1K GEL monthly)
+health_ben_2022_8,health benefits for adults with monthly income over  GEL1k and annual income under GEL40k 
+health_ben_2022_9,health benefits for adults with high household income (over 40k GEL)
+pc_preschool,Per capita expenditure pre-school level 
+pc_general,Per capita expenditure General school level 
+pc_vocational,Per capita expenditure Vocational level 
+pc_higher,Per capita expenditure Higher Education level 
+sh_priv_preschool,Share of private students in pre-school level 
+sh_priv_general,Share of private students in General school level 
+sh_priv_vocational,Share of private students in Vocational level 
+sh_priv_higher,Share of private students in Higher Education level 
+nat_povline_monthly,National Monthly povertly line
+gppp_2017,
+gcpi_2017,
+gcpi_2022,
