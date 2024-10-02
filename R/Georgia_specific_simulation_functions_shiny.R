@@ -383,7 +383,11 @@ create_diagram <- function(number, sim_res){
   title_housemk_value <- 'housing value taxes'
   title_landtax <- 'land taxes'
 
-  inputs_short_form <- readr::read_csv("./inst/extdata/inputs_short_form.csv")
+  inputs_short_form <- readr::read_csv(
+    system.file("extdata", "inputs_short_form.csv", package = "GeoappPackage")
+  )
+
+ # inputs_short_form <- readr::read_csv("./inst/extdata/inputs_short_form.csv")
 
   table_direct_tranfers_vector <- inp_xlsx %>%
     select(inputId, value) %>%
