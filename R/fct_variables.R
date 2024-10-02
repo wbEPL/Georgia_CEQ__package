@@ -5,7 +5,6 @@
 #' @importFrom shiny isTruthy
 #' @importFrom stringr str_c
 #' @importFrom dplyr mutate select filter
-#' @export
 get_var_nm <- function(vars = NULL, suffix = "_pc") {
   dta <-
     tribble(
@@ -105,8 +104,6 @@ get_var_nm <- function(vars = NULL, suffix = "_pc") {
 #' @describeIn get_var_nm Income Concepts variables IDs and labels returned in a data frame
 #'
 #' @returns a data frame with variables names
-#'
-#' @export
 get_inc_nm <- function(suffix = "_pc") {
   c("ym", "yp", "yd", "yc", "yg", "yf") %>%
     str_c(., suffix) %>%
@@ -116,8 +113,6 @@ get_inc_nm <- function(suffix = "_pc") {
 #' @describeIn get_var_nm Weight variable IDs and labels in a data frame
 #'
 #' @returns a data frame with variables names
-#'
-#' @export
 get_wt_nm <- function(suffix = NULL) {
   "weight" %>%
     str_c(., suffix) %>%

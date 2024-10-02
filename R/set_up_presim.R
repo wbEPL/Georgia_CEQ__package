@@ -6,7 +6,6 @@
 #' @param path_to_baseline Character string. The file path to the baseline `.rds` file.
 #'
 #' @return A reactive expression that, when evaluated, returns a list containing the presimulation data with the baseline data included.
-#' @export
 #'
 #' @examples
 #' # Example usage within a Shiny app server function:

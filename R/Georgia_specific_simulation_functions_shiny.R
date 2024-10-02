@@ -2026,7 +2026,6 @@ CEQ_ui_local <- function (request,
 
 
 
-#' @export
 #' @noRd
 gen_ceq_ui_local <-
   function (fn_results_ui = fn_results_ui_dummy,

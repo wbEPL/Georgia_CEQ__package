@@ -5,7 +5,6 @@
 #' @param ... other parametsr
 #'
 #' @return completed microsimulation
-#' @export
 full_ceq <- function(inps, presim, ...) {
 
   sim <- list()

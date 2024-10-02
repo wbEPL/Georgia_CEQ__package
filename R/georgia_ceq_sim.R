@@ -1,7 +1,6 @@
 #' Key variables names and labels
 #'
 #' 01. 02_GEO22_DirectTaxesContrib.do replication
-#' @export
 #' @noRd
 #' @import dplyr
 func_1_direct_transfers<- function(sim = list(), inps, presim) {
@@ -90,7 +89,6 @@ func_1_direct_transfers<- function(sim = list(), inps, presim) {
 
 
 #' 02. 03_GEO22_DirectTaxesContrib.do replication 2.1.1 Presim data  to 2.2.4 Save household file
-#' @export
 #' @noRd
 #' @import dplyr purrr
 func_2_direct_tax <- function(sim = list(), inps, presim) {
@@ -189,7 +187,6 @@ func_2_direct_tax <- function(sim = list(), inps, presim) {
 
 
 #' 03. 03_GEO22_DirectTaxesContrib.do replication 2.3: Capital Tax
-#' @export
 #' @noRd
 #' @import dplyr
 func_3_capital_tax <- function(sim = list(), inps, presim) {
@@ -207,7 +204,6 @@ func_3_capital_tax <- function(sim = list(), inps, presim) {
 
 
 #' 03a. 03_GEO22_DirectTaxesContrib.do replication 2.3: Capital Tax
-#' @export
 #' @noRd
 #' @import dplyr
 func_4_realestate <- function(sim = list(), inps, presim) {
@@ -236,7 +232,6 @@ func_4_realestate <- function(sim = list(), inps, presim) {
 
 
 #' 04. 02_GEO22_DirectTaxesContrib.do replication 2.6:  Agricultural land
-#' @export
 #' @noRd
 #' @import dplyr
 
@@ -293,7 +288,6 @@ func_5_landtax <- function(sim = list(), inps, presim) {
 }
 
 #' 06. 04_GEO22_IndTaxes.do replication of whole file
-#' @export
 #' @noRd
 #' @import dplyr
 
@@ -371,7 +365,6 @@ func_6_indtaxes<- function(sim = list(), inps, presim) {
 }
 
 #' 07. 05_GEO22_IndSubs.do replication of  electic subsidies
-#' @export
 #' @noRd
 #' @import dplyr
 
@@ -423,7 +416,6 @@ func_7_subs_elec<- function(sim = list(), inps, presim) {
 }
 
 #' 08. 05_GEO22_IndSubs.do replication of 3.2: Gas
-#' @export
 #' @noRd
 #' @import dplyr
 
@@ -448,7 +440,6 @@ func_8_subs_gas<- function(sim = list(), inps, presim) {
 
 
 #' 09. 05_GEO22_IndSubs.do replication of 3.3: Water
-#' @export
 #' @noRd
 #' @import dplyr
 
@@ -473,7 +464,6 @@ func_9_conssub_water <- function(sim = list(), inps, presim) {
 
 
 #' 10. 05_GEO22_IndSubs.do replication of 3.4: Transport
-#' @export
 #' @noRd
 #' @import dplyr
 
@@ -490,7 +480,6 @@ func_10_conssub_transport <- function(sim = list(), inps, presim) {
 }
 
 #' 11. 05_GEO22_IndSubs.do replication of 3. all subsidies
-#' @export
 #' @noRd
 #' @import dplyr
 #' @import tidyr
@@ -511,7 +500,6 @@ func_11_all_subsidies <- function(sim = list()) {
 
 
 #' 12. 06_GEO22_Health.do replication of health file
-#' @export
 #' @noRd
 #' @import dplyr
 #' @import tidyr
@@ -554,7 +542,6 @@ func_12_health <- function(sim = list(), inps, presim) {
 
 
 #' 13. 07_GEO22_Education.do replication of health file
-#' @export
 #' @noRd
 #' @import dplyr
 #' @import tidyr
@@ -661,7 +648,6 @@ func_13_education <- function(sim = list(), inps, presim) {
 
 
 #' 99. run simulation
-#' @export
 #' @noRd
 #' @import dplyr
 #' @import tidyr
