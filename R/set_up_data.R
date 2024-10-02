@@ -16,9 +16,7 @@ set_up_data <- function() {
 #'
 #' @return A list containing the input structure.
 #' @importFrom devCEQ load_input_xlsx
-#'
-#' @examples
-#' inputs_str <- load_input_structure()
+
 load_input_structure <- function() {
   # Get the path to the 'geo_inputs.xlsx' file within the package
   inputs_path <- system.file("extdata", "geo_inputs.xlsx", package = "GeoappPackage")
@@ -34,9 +32,6 @@ load_input_structure <- function() {
 #'
 #' @return A list containing the input tabs structure.
 #' @importFrom devCEQ load_inputtabs_xlsx
-#'
-#' @examples
-#' inputs_tab_str <- load_input_tabs_structure()
 load_input_tabs_structure <- function() {
   # Get the path to the 'geo_inputs.xlsx' file within the package
   inputs_path <- system.file("extdata", "geo_inputs.xlsx", package = "GeoappPackage")
@@ -51,9 +46,6 @@ load_input_tabs_structure <- function() {
 #'
 #' @return A list containing the input tables structure.
 #' @importFrom devCEQ load_inputtables_xlsx
-#'
-#' @examples
-#' inputs_table_str <- load_input_tables_structure()
 load_input_tables_structure <- function() {
   # Get the path to the 'geo_inputs.xlsx' file within the package
   inputs_path <- system.file("extdata", "geo_inputs.xlsx", package = "GeoappPackage")

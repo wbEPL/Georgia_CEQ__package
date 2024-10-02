@@ -17,11 +17,3 @@ A reactive expression that, when evaluated, returns a list containing the presim
 \description{
 Reads presimulation and baseline data from specified file paths and returns a reactive expression containing the combined data.
 }
-\examples{
-# Example usage within a Shiny app server function:
-\dontrun{
-presim_dta <- set_up_presim("data/presim.rds", "data/baseline.rds")
-# Access the data by calling presim_dta()
-data <- presim_dta()
-}
-}

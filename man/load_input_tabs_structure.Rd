@@ -12,6 +12,3 @@ A list containing the input tabs structure.
 \description{
 This function loads the input tabs structure from the `geo_inputs.xlsx` file included in the package.
 }
-\examples{
-inputs_tab_str <- load_input_tabs_structure()
-}
