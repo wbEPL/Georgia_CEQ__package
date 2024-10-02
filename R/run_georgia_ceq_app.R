@@ -76,7 +76,7 @@ run_georgia_ceq_app <- function(path_to_presim = NULL, path_to_baseline = NULL, 
     presim = presim_dta,
 
     # Info page
-    info_page_md = "inst/extdata/info-page.md",
+    info_page_md = system.file("extdata", "info-page.md", package = "GeoappPackage"),
     info_page_size = "m",
 
     # Key policy number options
