@@ -7,7 +7,7 @@ The easiest way to run a local version of the Georgia CEQ app, is by running the
 The only thing you will need to edit are the `path_to_presim` and the  `path_to_baseline`. These should be file paths (or relative file paths if you are using a Rproject). These two file paths refer to the baseline CEQ data in `.rds` format and the pre-simulation data in `.rds` format.
 
 
-_Please note, that in order to run the shiny app it is required to have this confidential data downloaded and saved on your PC. As no confidential data is being shared on the GitHub, users must request this data (and it will be shared during the training). The files you need are most likely named `presim.rds` and `baseline.rds`, but you migth decide to rename them_
+_Please note, that in order to run the shiny app it is required to have this confidential data downloaded and saved on your PC. As no confidential data is being shared on the GitHub, users must request this data (and it will be shared during the training). The files you need are most likely named `presim.rds` and `baseline.rds`, but you migth decide to rename them._
 
 ```r
 # 1) download the remotes pacakage if you do not all ready have this installed.
