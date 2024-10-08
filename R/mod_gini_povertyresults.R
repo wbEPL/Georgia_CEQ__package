@@ -5,7 +5,9 @@ local_get_dta_gini <- function(dta, policy_name, ...) {
     policy_name = policy_name,
     wt_var = get_wt_nm(),
     income_vars_tbl =  get_inc_nm() %>%
-      filter(!var %in%  c("yg_pc", "yf_pc")),
+      filter(!var %in%  c("yg_pc"#,
+                          #"yf_pc"
+                          )),
     para_names = tibble(
       parameter = c("Gini",
                     "Theil",
