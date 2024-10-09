@@ -9,6 +9,19 @@ set_up_data <- function() {
   devCEQ::load_input_xlsx(input_file)
 }
 
+#' Load baseline inputs
+#'
+#' This function returns a list with input parameters used in the baseline
+#'
+#' @return A list.
+#' @export
+baseline_inputs <- function() {
+  set_up_data() %>%
+    filter(!is.na(inputId)) %>%
+    # filter(include) %>%
+    get_all_inps()
+}
+
 
 #' Load Input Structure
 #'

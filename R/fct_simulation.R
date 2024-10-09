@@ -4,6 +4,7 @@
 #' @param presim pressimulation file
 #' @param ... other parametsr
 #'
+#' @export
 #' @return completed microsimulation
 full_ceq <- function(inps, presim, ...) {
 
